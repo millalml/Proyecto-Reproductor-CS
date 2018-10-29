@@ -27,7 +27,7 @@ Para contribuir al proyecto es necesario trabajar con ramas en git. Por ejemplo 
 
 Para crear una rama nueva se usa por ejemplo ```git checkout -b feature/frontend```
 
-Para cambiar la rama en la que se está trabajando a otra diferente como la que acabamos de crear se usa ```git checkout -b feature/frontend```
+Para cambiar la rama en la que se está trabajando a otra diferente como la que acabamos de crear se usa ```git checkout feature/frontend```
 
 Si se quieren realizar cambios en la rama principal(master) con respecto a las demas ramas es necesario realizar un **pull request** cuando ya se hayan subido los cambios de la rama trabajada al repositorio.
 
