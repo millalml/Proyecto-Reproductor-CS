@@ -37,6 +37,7 @@ Si se quieren realizar cambios en la rama principal(master) con respecto a las d
 * Manejo de ramas en git https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches.
 * Curso de IONIC 3 en español https://www.youtube.com/watch?v=0ZCUnjp_2H4&list=PLORQfrS2-ZMdDUtv5I7E3jXvbPCfWbrrN
 * IONIC 2 en 60 minutos en inglés https://www.youtube.com/watch?v=ilM8YorL_jI
+* Enlace documento creado a partir de la reunión pasada https://drive.google.com/file/d/1Yti7RLRWHxNtR0osS7J-VdqeodmM2rVy/view?usp=sharing
 
 ## Licencia
 
