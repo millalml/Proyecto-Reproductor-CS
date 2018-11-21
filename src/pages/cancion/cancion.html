@@ -1,0 +1,78 @@
+<!--
+  Generated template for the CancionPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Votar {{ cancion.title }}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content padding>
+	<ion-card>
+		<ion-card-header>
+			{{ cancion.title }}
+		</ion-card-header>
+		<ion-card-content>
+			<ion-list no-border>
+				<ion-item>
+					Nombre
+					<ion-note>
+						{{ cancion.title }}
+					</ion-note>
+				</ion-item>
+				<ion-item>
+					Artista
+					<ion-note>
+						{{ cancion.title }}
+					</ion-note>
+				</ion-item>
+				<ion-item>
+					Género
+					<ion-note>
+						{{ cancion.title }}
+					</ion-note>
+				</ion-item>
+				<ion-item>
+					Álbum
+					<ion-note>
+						{{ cancion.title }}
+					</ion-note>
+				</ion-item>
+				<ion-item>
+					Año
+					<ion-note>
+						{{ cancion.title }}
+					</ion-note>
+				</ion-item>
+				<ion-item>
+					Duración
+					<ion-note>
+						{{ cancion.title }}
+					</ion-note>
+				</ion-item>
+				<ion-item>
+					Composición
+					<ion-note>
+						{{ cancion.title }}
+					</ion-note>
+				</ion-item>
+				<!--<ion-item>
+					Lista canción 
+					<ion-note>
+						{{ cancion.title }}
+					</ion-note>
+				</ion-item>-->
+				<ion-item>
+					<button ion-button full (click)="votoCancion()"><ion-icon  name="heart"></ion-icon></button>
+				</ion-item>
+			</ion-list>
+		</ion-card-content>
+
+</ion-card>
+
+</ion-content>

@@ -1,0 +1,22 @@
+<!--
+  Generated template for the CancionesPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar padding>
+    <ion-title>Lista de canciones</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content padding>
+	<ion-list inset>
+		<button ion-item *ngFor="let cancion of listCanciones" (click)="cancionSeleccionada(cancion)">
+      {{ cancion.title }}
+		</button> 
+	</ion-list>
+
+</ion-content>
